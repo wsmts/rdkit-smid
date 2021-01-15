@@ -24,4 +24,4 @@ EXPOSE 8866
 
 ENTRYPOINT ["tini", "-g", "--"]
 
-CMD voila --no-browser --enable_nbextensions=True  --VoilaConfiguration.file_whitelist '.*\.(sdf)'
+CMD voila --no-browser --enable_nbextensions=True  --VoilaConfiguration.file_whitelist '.*\.(sdf)' /opt/notebooks/SMID-webapp.ipynb
