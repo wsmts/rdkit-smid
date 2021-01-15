@@ -3,5 +3,5 @@ Jupyter notebook for calculating the *smallest maximum intramolecular distance* 
 
 The code was based [BrianGoldman/SMID](https://github.com/BrianGoldman/SMID), and adapted to use the rdkit toolkit instead of the openeye toolkit.
 
-# Usage
+## Usage
 The notebook can run in a conda environment or in a docker container.
