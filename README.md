@@ -10,3 +10,5 @@ The notebook can run in a conda environment or in a docker container.
     cd rdkit-smid
     docker build -t rdkit-smid .
     docker run --rm -p 8866:8866 rdkit-smid
+
+and point your browser to <http://localhost:8866>
