@@ -6,7 +6,7 @@ The code was based on [BrianGoldman/SMID](https://github.com/BrianGoldman/SMID),
 ## Usage
 The notebook can run in a conda environment or in a docker container.
 
-    git clone wsmts/rdkit-smid
+    git clone https://github.com/wsmts/rdkit-smid.git
     cd rdkit-smid
     docker build -t rdkit-smid .
     docker run --rm -p 8866:8866 rdkit-smid
